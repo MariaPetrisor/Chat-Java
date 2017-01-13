@@ -1,0 +1,8 @@
+cd workspace/chat_good/bin
+rmic server.ChatServer
+rmic client.ChatClient
+rmiregistry
+
+java server.ChatServerDriver
+
+java client.ChatClientDriver
